@@ -1,0 +1,69 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background-color: lightgray;
+  width: 100%;
+}
+
+.container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.jobDetails {
+  background-color: white;
+}
+
+.job-column{
+  min-width: 30vw;
+}
+
+.posting-age {
+  color: #1fc76a;
+}
+
+.subtitle {
+  font-size: x-small;
+}
+
+.header {
+  font-size: small;
+}
+
+.job-title {
+  font-size: small;
+}
+
+.role-tag-div > .badge {
+  color: #1fc76a;
+  width: max-content;
+  background-color: #DDF7E9 !important;
+}
+
+.logo-container {
+  width: 10%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.last-row {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 768px) {
+  .jobDetails {
+    border-width: 2%;
+  }
+}
