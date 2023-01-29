@@ -14,17 +14,8 @@ body {
   width: 100%;
 }
 
-.container {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-.jobDetails {
+.job-details {
   background-color: white;
-}
-
-.job-column{
-  min-width: 30vw;
 }
 
 .posting-age {
@@ -62,8 +53,17 @@ body {
   text-overflow: ellipsis;
 }
 
-@media only screen and (max-width: 768px) {
-  .jobDetails {
-    border-width: 2%;
+
+
+@media only screen and (max-width: 785px) {
+  .job-details {
+      margin-right: 2%;
   }
+  .row {
+    width: fit-content !important;
+  }
+
 }
+
+
+

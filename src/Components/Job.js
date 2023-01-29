@@ -17,7 +17,7 @@ export default function Job() {
                 <div className="d-flex">
                   <div className="flex-shrink-1 logo-container mx-2">
                     <img className="logo" src={job.image_url} alt="Govtech logo" />
-                 </div>
+                  </div>
                 
                   <div className="flex-grow-1">
                     <div className="d-flex header">
@@ -49,6 +49,7 @@ export default function Job() {
                     </div>
                   </div>
                 </div>
+
                 <hr className="mb-1 mt-0"></hr>
                 <div className="last-row">
                   {job.skill_tags.map(tag=> <Badge className="mx-1" bg="secondary">{tag}</Badge> )}
@@ -57,8 +58,9 @@ export default function Job() {
             </Card>
           )
       })}
+
       </Col>
-      <Col className="jobDetails job-column">
+      <Col className="job-details">
           <h4 className="mt-2">{title}</h4>
       </Col>
     </Row>
