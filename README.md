@@ -1,7 +1,7 @@
 
 # job-portal
 
-Project URL: https://job-portal-omt0ys5mb-chanellng.vercel.app/
+Project URL: https://job-portal-red-kappa.vercel.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
